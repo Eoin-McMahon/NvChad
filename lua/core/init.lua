@@ -15,6 +15,9 @@ opt.showmode = false
 opt.clipboard = "unnamedplus"
 opt.cursorline = true
 
+--spelling
+opt.spell = true
+
 -- Indenting
 opt.expandtab = true
 opt.shiftwidth = 2
