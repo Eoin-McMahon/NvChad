@@ -18,6 +18,9 @@ opt.cursorline = true
 --spelling
 opt.spell = true
 
+-- Swap file
+opt.swapfile = false
+
 -- Indenting
 opt.expandtab = true
 opt.shiftwidth = 2
