@@ -44,7 +44,10 @@ M.general = {
     ["<Down>"] = { 'v:count || mode(1)[0:1] == "no" ? "j" : "gj"', "Move down", opts = { expr = true } },
 
     -- new buffer
-    ["<leader>b"] = { "<cmd> enew <CR>", "New buffer" },
+    ["<leader>bn"] = { "<cmd> enew <CR>", "New buffer" },
+    -- close all buffers except current
+    ["<leader>bf"] = { "<cmd> %bd|e# <CR>", "Focus buffer" },
+
     ["<leader>ch"] = { "<cmd> NvCheatsheet <CR>", "Mapping cheatsheet" },
   },
 
